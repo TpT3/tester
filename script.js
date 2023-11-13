@@ -82,7 +82,8 @@ else {
     const testTypes = engine.createInput.text();
 
     engine.createText('столбцы через ; и без пробелов (пример: H;водород;аш)')
-    const testQuestions = document.createElement('textarea')
+    const testQuestions = document.createElement('textarea');
+    testQuestions.spellcheck = false
     document.getElementById("main").appendChild(testQuestions);
 
     engine.space();
