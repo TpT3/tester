@@ -18,7 +18,7 @@ if (params.has('length')) {
 
     engine.createHeader(`${name} (тест сделал: ${author})`);
 
-    const start_test = engine.createButton('Пройти тест');
+    const start_test = engine.createButton('Начать');
 
     const question_text = engine.createText('a').hide();
     const answer_input = engine.createInput.text().hide();
@@ -111,18 +111,3 @@ else {
     })
     
 }
-
-
-// H;аш;водород
-// He;гелий;гелий
-// Li;литий;литий
-// Be;бериллий;бериллий
-// B;бор;бор
-// C;цэ;кальций
-// N;эн;азот
-// O;о;кислород
-// F;эф;фтор
-// Ne;неон;неон
-// Na;натрий;натрий
-// Mg;магний;магний
-// Al;алюминий;алюминий
