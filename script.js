@@ -62,6 +62,7 @@ if (params.has('length')) {
                     answer_input.hide();
                     answer_button.hide();
                     start_test.show();
+                    answer_input.value = '';
                 }
             });
         }
